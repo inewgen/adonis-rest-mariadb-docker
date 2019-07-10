@@ -32,6 +32,8 @@ http://localhost:3333 or http://127.0.0.1:3333
 ```bash
 # run on project directory
 docker-compose up -d
+# or run only mariadb and api
+docker-compose up -d mariadb api
 ```
 
 ## Questions?
